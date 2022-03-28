@@ -83,6 +83,11 @@ header {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo > .logo-color {
   color: #2196f3;
 }
@@ -97,8 +102,8 @@ header {
   text-decoration: none;
 
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-links {
@@ -247,8 +252,6 @@ footer .logo {
 
 .specifics {
   background-color: var(--primary-white-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .hidden {
@@ -259,10 +262,9 @@ footer .logo {
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 
-.about-list .item {
+.section .about-list .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
@@ -287,9 +289,15 @@ footer .logo {
   color: var(--text-color);
 }
 
+/* section -projects */
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.section.projects {
+  padding-top: 0;
 }
 
 .projects-list .item {
@@ -306,9 +314,6 @@ footer .logo {
 
 .team {
   background-color: var(--section-team-background);
-
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-list {
@@ -370,11 +375,6 @@ footer .logo {
 /* team */
 
 /* portfolio page */
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .btn-filter {
   font-family: inherit;
@@ -448,9 +448,8 @@ footer .logo {
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-list .item {
@@ -462,7 +461,9 @@ footer .logo {
 }
 
 .cards-info {
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
